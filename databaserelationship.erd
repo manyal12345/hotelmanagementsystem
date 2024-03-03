@@ -1,0 +1,564 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -398.0421,
+    "scrollLeft": -121.1667,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1
+  },
+  "doc": {
+    "tableIds": [
+      "MSz2MTbjZ-UI-RWwMg-Kp",
+      "5hN_e3KeWTlbzduv52MqI"
+    ],
+    "relationshipIds": [
+      "TRibC4wGzCfm_oJ0dT1im"
+    ],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "MSz2MTbjZ-UI-RWwMg-Kp": {
+        "id": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Hotel",
+        "comment": "",
+        "columnIds": [
+          "AwREuZNpmMqyxY5SEPW5V",
+          "zLE8tm4e0cdtu0YX688kt",
+          "ZSxju9MqBEziH_-SJ3QEg",
+          "-QSmTrWkuUvlNfB8wI8pX",
+          "t1S2n-WnxwNwTTDT87qN6",
+          "wb9uxFHflT5R90V5uBzwg",
+          "CVLgN84kxkm4AT9xZCz5S",
+          "NxaRraK-4lBrj7VSuICbI"
+        ],
+        "seqColumnIds": [
+          "AwREuZNpmMqyxY5SEPW5V",
+          "zLE8tm4e0cdtu0YX688kt",
+          "ZSxju9MqBEziH_-SJ3QEg",
+          "-QSmTrWkuUvlNfB8wI8pX",
+          "t1S2n-WnxwNwTTDT87qN6",
+          "wb9uxFHflT5R90V5uBzwg",
+          "CVLgN84kxkm4AT9xZCz5S",
+          "NxaRraK-4lBrj7VSuICbI"
+        ],
+        "ui": {
+          "x": 333.0002,
+          "y": 121.0001,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665731206
+        }
+      },
+      "5hN_e3KeWTlbzduv52MqI": {
+        "id": "5hN_e3KeWTlbzduv52MqI",
+        "name": "Room",
+        "comment": "",
+        "columnIds": [
+          "R078xVt7bN2KFEllmmwFn",
+          "cI0EkjhtYcIAZUwgGMhpE",
+          "DEafmP1-SufEY6y5ut3J_",
+          "bIsBGSPf1acOPB7bvZCdI",
+          "SvUALHIC2TJj_dThMtVZR"
+        ],
+        "seqColumnIds": [
+          "R078xVt7bN2KFEllmmwFn",
+          "cI0EkjhtYcIAZUwgGMhpE",
+          "DEafmP1-SufEY6y5ut3J_",
+          "bIsBGSPf1acOPB7bvZCdI",
+          "SvUALHIC2TJj_dThMtVZR"
+        ],
+        "ui": {
+          "x": 345,
+          "y": 575,
+          "zIndex": 66,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666021384
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "AwREuZNpmMqyxY5SEPW5V": {
+        "id": "AwREuZNpmMqyxY5SEPW5V",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "HotelID",
+        "comment": "PK",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665781596
+        }
+      },
+      "zLE8tm4e0cdtu0YX688kt": {
+        "id": "zLE8tm4e0cdtu0YX688kt",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Name",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665808567
+        }
+      },
+      "ZSxju9MqBEziH_-SJ3QEg": {
+        "id": "ZSxju9MqBEziH_-SJ3QEg",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Address",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665865274
+        }
+      },
+      "-QSmTrWkuUvlNfB8wI8pX": {
+        "id": "-QSmTrWkuUvlNfB8wI8pX",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Phone",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665886687
+        }
+      },
+      "t1S2n-WnxwNwTTDT87qN6": {
+        "id": "t1S2n-WnxwNwTTDT87qN6",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Email",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665899219
+        }
+      },
+      "wb9uxFHflT5R90V5uBzwg": {
+        "id": "wb9uxFHflT5R90V5uBzwg",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "Stars",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665936087
+        }
+      },
+      "CVLgN84kxkm4AT9xZCz5S": {
+        "id": "CVLgN84kxkm4AT9xZCz5S",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "CheckinTime",
+        "comment": "",
+        "dataType": "TIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 75,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665960413
+        }
+      },
+      "NxaRraK-4lBrj7VSuICbI": {
+        "id": "NxaRraK-4lBrj7VSuICbI",
+        "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+        "name": "CheckoutTime",
+        "comment": "",
+        "dataType": "TIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 83,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706665976780
+        }
+      },
+      "R078xVt7bN2KFEllmmwFn": {
+        "id": "R078xVt7bN2KFEllmmwFn",
+        "tableId": "5hN_e3KeWTlbzduv52MqI",
+        "name": "Room",
+        "comment": "PK",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666033977
+        }
+      },
+      "cI0EkjhtYcIAZUwgGMhpE": {
+        "id": "cI0EkjhtYcIAZUwgGMhpE",
+        "tableId": "5hN_e3KeWTlbzduv52MqI",
+        "name": "Hotel",
+        "comment": "N FK",
+        "dataType": "INT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666048117
+        }
+      },
+      "DEafmP1-SufEY6y5ut3J_": {
+        "id": "DEafmP1-SufEY6y5ut3J_",
+        "tableId": "5hN_e3KeWTlbzduv52MqI",
+        "name": "TypeId",
+        "comment": "N FK",
+        "dataType": "INT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666071599
+        }
+      },
+      "bIsBGSPf1acOPB7bvZCdI": {
+        "id": "bIsBGSPf1acOPB7bvZCdI",
+        "tableId": "5hN_e3KeWTlbzduv52MqI",
+        "name": "Status",
+        "comment": "N",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666089937
+        }
+      },
+      "SvUALHIC2TJj_dThMtVZR": {
+        "id": "SvUALHIC2TJj_dThMtVZR",
+        "tableId": "5hN_e3KeWTlbzduv52MqI",
+        "name": "HotelID",
+        "comment": "PK",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1707973556667,
+          "createAt": 1706666225070
+        }
+      }
+    },
+    "relationshipEntities": {
+      "TRibC4wGzCfm_oJ0dT1im": {
+        "id": "TRibC4wGzCfm_oJ0dT1im",
+        "identification": false,
+        "relationshipType": 4,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "MSz2MTbjZ-UI-RWwMg-Kp",
+          "columnIds": [
+            "AwREuZNpmMqyxY5SEPW5V"
+          ],
+          "x": 527.0002,
+          "y": 369.0001,
+          "direction": 8
+        },
+        "end": {
+          "tableId": "5hN_e3KeWTlbzduv52MqI",
+          "columnIds": [
+            "SvUALHIC2TJj_dThMtVZR"
+          ],
+          "x": 527.5,
+          "y": 575,
+          "direction": 4
+        },
+        "meta": {
+          "updateAt": 1706666256310,
+          "createAt": 1706666225071
+        }
+      }
+    },
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "MSz2MTbjZ-UI-RWwMg-Kp": [
+      "tableEntities",
+      1706665731204,
+      -1,
+      {
+        "name": 1706665770032
+      }
+    ],
+    "AwREuZNpmMqyxY5SEPW5V": [
+      "tableColumnEntities",
+      1706665781595,
+      -1,
+      {
+        "name": 1706665795846,
+        "dataType": 1706665803097,
+        "options(notNull)": 1706665832348,
+        "default": 1706665826614,
+        "comment": 1706665839244,
+        "options(primaryKey)": 1706666134908
+      }
+    ],
+    "zLE8tm4e0cdtu0YX688kt": [
+      "tableColumnEntities",
+      1706665808565,
+      -1,
+      {
+        "name": 1706665847403,
+        "dataType": 1706665854603
+      }
+    ],
+    "ZSxju9MqBEziH_-SJ3QEg": [
+      "tableColumnEntities",
+      1706665865267,
+      -1,
+      {
+        "name": 1706665869526,
+        "dataType": 1706665882852
+      }
+    ],
+    "-QSmTrWkuUvlNfB8wI8pX": [
+      "tableColumnEntities",
+      1706665886684,
+      -1,
+      {
+        "name": 1706665889815,
+        "dataType": 1706665896118
+      }
+    ],
+    "t1S2n-WnxwNwTTDT87qN6": [
+      "tableColumnEntities",
+      1706665899217,
+      -1,
+      {
+        "name": 1706665902240,
+        "dataType": 1706665933930
+      }
+    ],
+    "wb9uxFHflT5R90V5uBzwg": [
+      "tableColumnEntities",
+      1706665936079,
+      -1,
+      {
+        "name": 1706665950406,
+        "dataType": 1706665958748
+      }
+    ],
+    "CVLgN84kxkm4AT9xZCz5S": [
+      "tableColumnEntities",
+      1706665960411,
+      -1,
+      {
+        "name": 1706665993159,
+        "dataType": 1706665974220
+      }
+    ],
+    "NxaRraK-4lBrj7VSuICbI": [
+      "tableColumnEntities",
+      1706665976778,
+      -1,
+      {
+        "name": 1706665988194,
+        "dataType": 1706666001828
+      }
+    ],
+    "5hN_e3KeWTlbzduv52MqI": [
+      "tableEntities",
+      1706666021381,
+      -1,
+      {
+        "name": 1706666029964
+      }
+    ],
+    "R078xVt7bN2KFEllmmwFn": [
+      "tableColumnEntities",
+      1706666033975,
+      -1,
+      {
+        "name": 1706666036740,
+        "dataType": 1706666040963,
+        "comment": 1706666047790,
+        "options(primaryKey)": 1706666129524
+      }
+    ],
+    "cI0EkjhtYcIAZUwgGMhpE": [
+      "tableColumnEntities",
+      1706666048115,
+      -1,
+      {
+        "name": 1706666052657,
+        "dataType": 1706666062100,
+        "comment": 1706666069546
+      }
+    ],
+    "DEafmP1-SufEY6y5ut3J_": [
+      "tableColumnEntities",
+      1706666071596,
+      -1,
+      {
+        "name": 1706666076412,
+        "dataType": 1706666081789,
+        "comment": 1706666088483
+      }
+    ],
+    "bIsBGSPf1acOPB7bvZCdI": [
+      "tableColumnEntities",
+      1706666089934,
+      -1,
+      {
+        "name": 1706666093561,
+        "dataType": 1706666103123,
+        "comment": 1706666107846
+      }
+    ],
+    "SvUALHIC2TJj_dThMtVZR": [
+      "tableColumnEntities",
+      1706666225068,
+      -1,
+      {
+        "options(notNull)": 1706666225068,
+        "name": 1706666225068,
+        "dataType": 1706666225068,
+        "default": 1706666225068,
+        "comment": 1706666225068
+      }
+    ],
+    "TRibC4wGzCfm_oJ0dT1im": [
+      "relationshipEntities",
+      1706666225068,
+      -1,
+      {
+        "relationshipType": 1706666256308
+      }
+    ]
+  }
+}

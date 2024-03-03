@@ -1,0 +1,76 @@
+# HotelManagementSystem
+
+- DB designing
+	Module :
+	- Reception
+	- Management
+	- Restaurant/ waiter
+	- Accounting
+
+	Reception:
+	- GuestInfo (While the guest enters the hotel and asks for a room to the Reception they should provide some details(name,number,email) those details are added on this table)
+		- first_name (CharField)
+        - last_name (CharField)
+        - date_of_birth (Date Field)
+		- phone_no (IntegarField)
+		- address (TextField)
+		- email (EmailField)
+    - Booking
+        - guest (ForeignKey to Customer)
+        - room (ForeignKey to Room)
+        - checkin_date (DateField)
+        - checkout_date (DateField)
+        - checkin_time  (TimeField)
+        - checkout_time (TimeField)
+
+	- GuestRoom (To define a guest is in a certain room this model will store the data)
+		- guest (Fk,GuestInfo,OTM)
+		- room (Fk, Room,OTM)
+
+	Management:
+	- Room (To define rooms in the hotel)
+		- room_no (CharField)
+		- floor (CharField)
+		- description (TextField)
+		- type (Fk, RoomType,OTM)
+
+	- RoomType (To define the types of room in the hotel)
+		- name (CharField)
+
+	- EmployeeInfo (To define employees in the hotel)
+		- first_name
+		- last_name
+        - position
+        - salary
+        - phone_no
+        - date_of_birth
+        - address
+        - email
+        -  hire_date
+        - status
+		- user (Fk, User, OTO) user type
+
+	Restaurant:
+	- Menu (To define the menus of foods)
+		- name (CharField)
+		- description (TextField)
+
+	- Food (To define the foods on menus)
+		- menu (Fk, Menu,OTM)
+		- name (CharField)
+        - price(Decimal Field)
+
+	Accounting:
+	- Bill (To define biils of guests in the hotel)
+		- guest (Fk, GuestInfo,OTM)
+		- amount (IntegarField)
+
+	- Payment (To define payments done by guests)
+		- bill (FK, Bill,OTO)
+		- payment_amount (IntegarField)
+
+	User
+	- User
+		- email
+		- password
+
